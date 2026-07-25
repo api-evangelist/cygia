@@ -1,7 +1,25 @@
 aid: cygia
-name: cygia
-description: cygia is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cygia.png
+name: CYGIA
+description: CYGIA (Zhuhai CYGIA Automation Equipment Co.) is an intelligent-factory equipment and
+  solution provider founded in 2006 and headquartered in Zhuhai, China. It develops, manufactures, and
+  services intelligent automation and automated-test equipment for consumer electronics, semiconductor and
+  integrated-circuit, automotive, medical, and new-energy industries. Once backed by Qiming Venture Partners,
+  CYGIA became a subsidiary of publicly traded CYG (Changyuan Group, Shanghai Stock Exchange 600525.SH) in
+  2015. This profile was added to the API Evangelist network as a VC-portfolio lead; enrichment found no public
+  API, developer portal, documentation, or SDK surface for CYGIA, which is a hardware/automation-equipment
+  manufacturer rather than an API provider.
 url: https://raw.githubusercontent.com/api-evangelist/cygia/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +27,23 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  last_run: '2026-07-18'
+  status: no-api-surface
+  notes: Industrial automation-equipment manufacturer (CYG subsidiary, 600525.SH); no public API/docs/SDK
+    surface found; cygia.com unreachable over HTTP/HTTPS at enrichment time. No artifacts fabricated.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Industrial Automation
+- Manufacturing
+- Intelligent Equipment
+- Semiconductor
+- Automated Testing
+- Hardware
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,5 @@ maintainers:
 common:
 - type: Website
   url: https://cygia.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/cygia
