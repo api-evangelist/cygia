@@ -32,7 +32,7 @@ x-enrichment:
   status: no-api-surface
   notes: Industrial automation-equipment manufacturer (CYG subsidiary, 600525.SH); no public API/docs/SDK
     surface found; cygia.com unreachable over HTTP/HTTPS at enrichment time. No artifacts fabricated.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
